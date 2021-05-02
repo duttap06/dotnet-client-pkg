@@ -9,14 +9,14 @@
 - Click on "Subscriptions"
 - Click on "Systems"
 - Click on "New"
-- - System Type: [x] Virutal System
-- - Name: rhel8-container
-- - Architecture: x86_64
-- - Number of vCPUs: 2
-- - Red Hat Enterprise Linux Version: 8
+  - System Type: [x] Virutal System
+  - Name: rhel8-container
+  - Architecture: x86_64
+  - Number of vCPUs:  
+  - Red Hat Enterprise Linux Version: 8
 - Click on "CREATE"
 - Attach a subscription to that system
-- My example: Employee SKU
+  - My example: Employee SKU
 - "Download Certificates" link is now available
 - Download the entitlement file (.zip file)
 - Create a directory for the entitlement *.pem and *-key.pem (we will be copying the *.pem file and creating *-key.pem from it)
