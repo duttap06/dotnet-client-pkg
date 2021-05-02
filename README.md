@@ -51,6 +51,6 @@ chmod a+x ./podman-run.sh
 
 - The following file will be copied to your $HOME/Development/rhel8-entitlements:
 
-- - Infinispan.HotRod.8.2.0-Alpha2.nupkg
+  - Infinispan.HotRod.8.2.0-Alpha2.nupkg
 
 
