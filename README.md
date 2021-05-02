@@ -1,7 +1,7 @@
 # dotnet-client-pkg
 ## Generate a NuGet package containing a .NET client with Hot Rod interface for Data Grid
 
-## The following instructions have been modified from https://github.com/worsco/dotnet-client/blob/rhel8/README-rhel8_dotnet-21_container.md
+### The following instructions have been modified from https://github.com/worsco/dotnet-client/blob/rhel8/README-rhel8_dotnet-21_container.md
 
 ### Pod entitled build (can be performed on RHEL7/RHEL8/FC host)
 You need an entitlement for a RHEL8 system
