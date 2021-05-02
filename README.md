@@ -44,7 +44,7 @@ Run the following from the folder you cloned this git repo in:
 #Build the package with the supplied Dockerfile using buildah:
 sudo buildah bud -t dotnet-nupkg .
 
-#Run podman to generate the NuGet package and have it copied to the $HOME/Development/rhel8-entitlements folder:
+#Run podman to generate the NuGet package in a container and have it copied to the $HOME/Development/rhel8-entitlements folder:
 chmod a+x ./podman-run.sh
 ./podman-run.sh
 ```
