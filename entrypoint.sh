@@ -40,4 +40,6 @@ git checkout rhel8
 ./build.sh
 ./build.sh QuickPack
 
+# Copy the resulting NuGet package to the mount folder so it can be retrieved from an external filesystem once the cotainer exits 
+
 cp /dotnet/dotnet-client/src/Infinispan.HotRod/bin/RelWithDebInfo/Infinispan.HotRod.8.2.0-Alpha2.nupkg /etc/pki/entitlement
